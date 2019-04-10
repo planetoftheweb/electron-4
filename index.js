@@ -17,14 +17,22 @@ function createWindows() {
   let aboutWindow = new BrowserWindow({
     width: 300,
     height: 275,
-    frame: false
+    frame: false,
+    show: false
   });
 
   aboutWindow.loadFile('about.html');
 
   appWindow.once('ready-to-show', ()=> {
+    appWindow.maximize();
     appWindow.show();
-    aboutWindow.show();
+
+    setTimeout(()=>{
+      aboutWindow.show();
+      setTimeout(()=>{
+        aboutWindow.hide();
+      }, 3000);
+    }, 1000);
   });
 
   aboutWindow.on('closed', () => {

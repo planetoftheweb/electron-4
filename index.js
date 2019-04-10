@@ -14,8 +14,21 @@ function createWindows() {
     appWindow = null
   });
 
+  let aboutWindow = new BrowserWindow({
+    width: 300,
+    height: 275,
+    frame: false
+  });
+
+  aboutWindow.loadFile('about.html');
+
   appWindow.once('ready-to-show', ()=> {
     appWindow.show();
+    aboutWindow.show();
+  });
+
+  aboutWindow.on('closed', () => {
+    aboutWindow = null
   });
 }
 

@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 
 function createWindows() {
   let appWindow = new BrowserWindow({
@@ -16,8 +16,11 @@ function createWindows() {
 
   let aboutWindow = new BrowserWindow({
     width: 300,
-    height: 275,
+    height: 300,
     frame: false,
+    webPreferences: {
+      nodeIntegration: true
+    },
     show: false
   });
 
@@ -29,15 +32,16 @@ function createWindows() {
 
     setTimeout(()=>{
       aboutWindow.show();
-      setTimeout(()=>{
-        aboutWindow.hide();
-      }, 3000);
     }, 1000);
   });
 
   aboutWindow.on('closed', () => {
     aboutWindow = null
   });
+
+  ipcMain.on('closeInfoWindow', (event) => {
+    aboutWindow.hide();
+  })
 }
 
 app.on('ready', createWindows);

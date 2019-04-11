@@ -4,8 +4,10 @@ We've learned how to work with a regular HTML project and most of the things you
 
 Let's get started by installing a project with the Vue CLI.
 
+```
 npm install
 $npm install -g @vue/cli$ vue create electron-4
-\$ vue add electron-builder
+$ vue add electron-builder
+```
 
 Wham!

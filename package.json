@@ -18,14 +18,22 @@
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "@vue/eslint-config-prettier": "^4.0.1",
+    "animate.css": "^3.7.0",
     "babel-eslint": "^10.0.1",
+    "bootstrap": "^4.3.1",
     "electron": "^4.0.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0",
     "vue-cli-plugin-electron-builder": "^1.2.0",
     "vue-template-compiler": "^2.5.21"
   }

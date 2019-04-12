@@ -71,11 +71,8 @@ export default {
     }
   },
   mounted: function() {
-    fetch("https://hplussport.com/api/products/order/price")
-      .then(response => response.json())
-      .then(data => {
-        this.products = data;
-      });
+    const data = require("./inventory.json");
+    this.products = data;
   }
 };
 </script>

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "234",
+    "name": "O's and 1's Apron",
+    "description": "Everyone’s a chef in our eco-friendly apron, made from 55% organic cotton and 45% recycled polyester. Showcase your favorite Binaryville robot design, screen-printed in PVC- and phthalate-free inks. Apron is easily adjustable around the neck and waist with one continuous strap. Machine wash warm, tumble dry low.",
+    "price": "24",
+    "image": "./images/apron-binary_tn.jpg"
+  },
+  {
+    "id": "235",
+    "name": "Compute Apron",
+    "description": "Everyone’s a chef in our eco-friendly apron, made from 55% organic cotton and 45% recycled polyester. Showcase your favorite Binaryville robot design, screen-printed in PVC- and phthalate-free inks. Apron is easily adjustable around the neck and waist with one continuous strap. Machine wash warm, tumble dry low.",
+    "price": "24",
+    "image": "/images/apron-compute_tn.jpg"
+  },
+  {
+    "id": "236",
+    "name": "Gumball Apron",
+    "description": "Everyone’s a chef in our eco-friendly apron, made from 55% organic cotton and 45% recycled polyester. Showcase your favorite Binaryville robot design, screen-printed in PVC- and phthalate-free inks. Apron is easily adjustable around the neck and waist with one continuous strap. Machine wash warm, tumble dry low.",
+    "price": "24",
+    "image": "/images/apron-gumball_tn.jpg"
+  },
+  {
+    "id": "237",
+    "name": "Microcontroller Apron",
+    "description": "Everyone’s a chef in our eco-friendly apron, made from 55% organic cotton and 45% recycled polyester. Showcase your favorite Binaryville robot design, screen-printed in PVC- and phthalate-free inks. Apron is easily adjustable around the neck and waist with one continuous strap. Machine wash warm, tumble dry low.",
+    "price": "24",
+    "image": "/images/apron-microcontrollers_tn.jpg"
+  },
+  {
+    "id": "238",
+    "name": "O's and 1's Cap",
+    "description": "Cheer the team on in style with our unstructured, low crown, six-panel baseball cap made of 100% organic cotton twill. Featuring our original Binaryville artwork, screen-printed with PVC- and phthalate-free inks. Complete with matching, sewn eyelets, and adjustable fabric closure.",
+    "price": "29",
+    "image": "/images/cap-binary_tn.jpg"
+  },
+  {
+    "id": "239",
+    "name": "Compute Cap",
+    "description": "Cheer the team on in style with our unstructured, low crown, six-panel baseball cap made of 100% organic cotton twill. Featuring our original Binaryville artwork, screen-printed with PVC- and phthalate-free inks. Complete with matching, sewn eyelets, and adjustable fabric closure.",
+    "price": "29",
+    "image": "/images/cap-compute_tn.jpg"
+  },
+  {
+    "id": "240",
+    "name": "Gumball Cap",
+    "description": "Cheer the team on in style with our unstructured, low crown, six-panel baseball cap made of 100% organic cotton twill. Featuring our original Binaryville artwork, screen-printed with PVC- and phthalate-free inks. Complete with matching, sewn eyelets, and adjustable fabric closure.",
+    "price": "29",
+    "image": "/images/cap-gumball_tn.jpg"
+  },
+  {
+    "id": "241",
+    "name": "Microcontroller Cap",
+    "description": "Cheer the team on in style with our unstructured, low crown, six-panel baseball cap made of 100% organic cotton twill. Featuring our original Binaryville artwork, screen-printed with PVC- and phthalate-free inks. Complete with matching, sewn eyelets, and adjustable fabric closure.",
+    "price": "29",
+    "image": "/images/cap-microcontrollers_tn.jpg"
+  },
+  {
+    "id": "242",
+    "name": "O's and 1's Mug",
+    "description": "Enjoy your morning coffee or tea in the company of your favorite Binaryville robot. Our strong ceramic mug, with its comfortable D-shaped handle, is microwave and dishwasher safe, and available in two sizes: 11-ounce and 15-ounce.",
+    "price": "16",
+    "image": "/images/mug-binary_tn.jpg"
+  },
+  {
+    "id": "243",
+    "name": "Compute Mug",
+    "description": "Enjoy your morning coffee or tea in the company of your favorite Binaryville robot. Our strong ceramic mug, with its comfortable D-shaped handle, is microwave and dishwasher safe, and available in two sizes: 11-ounce and 15-ounce.",
+    "price": "16",
+    "image": "/images/mug-compute_tn.jpg"
+  },
+  {
+    "id": "244",
+    "name": "Gumball Mug",
+    "description": "Enjoy your morning coffee or tea in the company of your favorite Binaryville robot. Our strong ceramic mug, with its comfortable D-shaped handle, is microwave and dishwasher safe, and available in two sizes: 11-ounce and 15-ounce.",
+    "price": "16",
+    "image": "/images/mug-gumball_tn.jpg"
+  },
+  {
+    "id": "245",
+    "name": "Microcontroller Mug",
+    "description": "Enjoy your morning coffee or tea in the company of your favorite Binaryville robot. Our strong ceramic mug, with its comfortable D-shaped handle, is microwave and dishwasher safe, and available in two sizes: 11-ounce and 15-ounce.",
+    "price": "16",
+    "image": "/images/mug-microcontrollers_tn.jpg"
+  },
+  {
+    "id": "246",
+    "name": "O's and 1's T-shirt",
+    "description": "Our t-shirts are made from ringspun, long-staple organic cotton that’s ethically-sourced from member farms of local organic cotton cooperatives. Original artwork is screen-printed using PVC- and phthalate-free inks. Features crew-neck styling, shoulder-to-shoulder taping, and strong side seams. Machine wash warm, tumble dry low.",
+    "price": "26",
+    "image": "/images/shirt-binary_tn.jpg"
+  },
+  {
+    "id": "247",
+    "name": "Compute T-shirt",
+    "description": "Our t-shirts are made from ringspun, long-staple organic cotton that’s ethically-sourced from member farms of local organic cotton cooperatives. Original artwork is screen-printed using PVC- and phthalate-free inks. Features crew-neck styling, shoulder-to-shoulder taping, and strong side seams. Machine wash warm, tumble dry low.",
+    "price": "26",
+    "image": "/images/shirt-compute_tn.jpg"
+  },
+  {
+    "id": "248",
+    "name": "Gumball T-shirt",
+    "description": "Our t-shirts are made from ringspun, long-staple organic cotton that’s ethically-sourced from member farms of local organic cotton cooperatives. Original artwork is screen-printed using PVC- and phthalate-free inks. Features crew-neck styling, shoulder-to-shoulder taping, and strong side seams. Machine wash warm, tumble dry low.",
+    "price": "26",
+    "image": "/images/shirt-gumball_tn.jpg"
+  },
+  {
+    "id": "249",
+    "name": "Microcontroller T-shirt",
+    "description": "Our t-shirts are made from ringspun, long-staple organic cotton that’s ethically-sourced from member farms of local organic cotton cooperatives. Original artwork is screen-printed using PVC- and phthalate-free inks. Features crew-neck styling, shoulder-to-shoulder taping, and strong side seams. Machine wash warm, tumble dry low.",
+    "image": "/images/shirt-microcontrollers_tn.jpg"
+  }
+]

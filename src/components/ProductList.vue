@@ -4,13 +4,12 @@
       class="row d-flex mb-3 align-items-center"
       v-for="(item, index) in products"
       :key="item.id"
-      v-if="item.price<=Number(maximum)"
       :data-index="index"
     >
       <div class="col-1 m-auto">
         <button class="btn btn-info" @click="$parent.$emit('add', item)">+</button>
       </div>
-      <div class="col-4">
+      <div class="col-2">
         <img class="img-fluid d-block" :src="item.image" :alt="item.name">
       </div>
       <div class="col">
@@ -30,7 +29,7 @@ import Price from "./Price.vue";
 export default {
   name: "product-list",
   components: { Price },
-  props: ["products", "maximum"],
+  props: ["products"],
   methods: {
     beforeEnter: function(el) {
       el.className = "d-none";

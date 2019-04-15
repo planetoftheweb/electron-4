@@ -10,7 +10,12 @@
         <button class="btn btn-info" @click="$parent.$emit('add', item)">+</button>
       </div>
       <div class="col-2">
-        <img class="img-fluid d-block" :src="item.image" :alt="item.name">
+        <img
+          class="lowres img-fluid d-block"
+          :src="item.image"
+          :alt="item.name"
+          @click="$parent.$emit('setCurrentPhoto', item.image)"
+        >
       </div>
       <div class="col">
         <h3 class="text-info">{{ item.name }}</h3>
@@ -29,7 +34,7 @@ import Price from "./Price.vue";
 export default {
   name: "product-list",
   components: { Price },
-  props: ["products"],
+  props: ["products", "modalPhoto"],
   methods: {
     beforeEnter: function(el) {
       el.className = "d-none";
@@ -51,3 +56,8 @@ export default {
   }
 };
 </script>
+<style>
+.lowres:hover {
+  cursor: pointer;
+}
+</style>

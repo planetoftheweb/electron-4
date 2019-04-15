@@ -86,7 +86,25 @@ const menuTemplate = [
      {type: "separator"},
      {role: "togglefullscreen"}
     ]
-  }  
+  },{
+    label: "Shop",
+    submenu: [
+      {
+        label: "Shop",
+        accelerator: process.platform === 'darwin' ? "Command+shift+I" : "Ctrl+shift+I",
+        click(item) {
+          win.webContents.send("shop");
+        }
+      },
+      {
+        label: "Checkout",
+        accelerator: process.platform === 'darwin' ? "Command+shift+U" : "Ctrl+shift+U",
+        click(item) {
+          win.webContents.send("checkout");
+        }
+      }
+      ]
+  }   
 ];
 
 const myAppMenu = Menu.buildFromTemplate(menuTemplate);

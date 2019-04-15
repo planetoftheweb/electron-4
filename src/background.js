@@ -1,6 +1,6 @@
 'use strict'
 
-import { app, protocol, BrowserWindow } from 'electron'
+import { app, protocol, BrowserWindow, Menu } from 'electron'
 import {
   createProtocol,
   installVueDevtools
@@ -48,6 +48,49 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+const menuTemplate = [
+  {
+   label: "BinaryVille Shop",
+   submenu: [
+     {role: "close"},
+     { 
+       label: "Visit my site",
+       click() {
+         require('electron').shell.openExternal('https://7ty.tech/');
+       }
+     },
+     { 
+       label: "Quit",
+      role: "quit"
+     },
+   ]
+  },
+  {
+    label: "Edit",
+    submenu: [
+     {role: "undo"},
+     {role: "redo"},
+     {role: "cut"},
+     {role: "copy"},
+     {role: "paste"},
+     {role: "selectall"}
+   ]
+  },
+  {
+    label: "View",
+    submenu: [
+     {role: "resetzoom"},
+     {role: "zoomin"},
+     {role: "zoomout"},
+     {type: "separator"},
+     {role: "togglefullscreen"}
+    ]
+  }  
+];
+
+const myAppMenu = Menu.buildFromTemplate(menuTemplate);
+Menu.setApplicationMenu(myAppMenu);
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
